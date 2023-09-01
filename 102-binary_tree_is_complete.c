@@ -17,7 +17,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 		return (0);
 	sizeTree = binary_tree_size(tree);
 
-	return (btic_helper(tree, 0, sizeTree));
+	return (btic_helper1(tree, 0, sizeTree));
 }
 
 /**
